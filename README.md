@@ -57,11 +57,11 @@ counter-app/          # Root directory
 
 ## Keyboard Shortcuts for Buttons
 
-- Increase: `Spacebar`, `ArrowUp`, or `S`
+- **Increase:** `Spacebar`, `ArrowUp`, or `S`
 
-- Decrease: `Backspace`, `ArrowDown`, or `A`
+- **Decrease:** `Backspace`, `ArrowDown`, or `A`
 
-- Reset: `Enter`
+- **Reset:** `Enter`
 
 ## Reporting Issues
 
