@@ -80,15 +80,16 @@ document.addEventListener("keydown", (event) => {
         event.preventDefault();
     }
 
-    if (event.code === "Space" && !keyPressed.Space) {
+    // Only allow Enter to reset if the reset button is visible
+    if (event.code === "Enter" && !keyPressed.Enter && reset.classList.contains("show")) {
+        keyPressed.Enter = true; // Mark Enter as pressed
+        reset.click();
+    } else if (event.code === "Space" && !keyPressed.Space) {
         keyPressed.Space = true; // Mark Space as pressed
         increase.click();
     } else if (event.code === "Backspace" && !keyPressed.Backspace) {
         keyPressed.Backspace = true; // Mark Backspace as pressed
         decrease.click();
-    } else if (event.code === "Enter" && !keyPressed.Enter) {
-        keyPressed.Enter = true; // Mark Enter as pressed
-        reset.click();
     } else if (event.code === "ArrowUp" && !keyPressed.ArrowUp) {
         keyPressed.ArrowUp = true; // Mark ArrowUp as pressed
         increase.click();
