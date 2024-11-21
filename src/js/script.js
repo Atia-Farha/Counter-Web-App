@@ -81,7 +81,7 @@ document.addEventListener("keydown", (event) => {
     }
 
     // Only allow Enter to reset if the reset button is visible
-    if (event.code === "Enter" && !keyPressed.Enter && reset.classList.contains("show")) {
+    if (event.code === "Enter" && reset.classList.contains("show") && !keyPressed.Enter) {
         keyPressed.Enter = true; // Mark Enter as pressed
         reset.click();
     } else if (event.code === "Space" && !keyPressed.Space) {
