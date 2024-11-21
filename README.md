@@ -1,20 +1,15 @@
-# Counter Website
+# Counter Web App
 
-A simple and minimalistic counter web app with keyboard shortcuts and local storage support. Perfect for counting events, tracking activities and more! 
+A simple and minimalistic counter web app with keyboard shortcuts and local storage support. Perfect for counting events, tracking activities and more.
 
 ## Table of Contents
 
-- Project Structure
-
-- Technologies Used
-
-- Features
-
-- Usage
-
-- Keyboard Shortcuts For Buttons
-
-- Reporting Issues
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Usage](#usage)
+- [Keyboard Shortcuts For Buttons](#keyboard-shortcuts-for-buttons)
+- [Reporting Issues](#reporting-issues)
 
 
 ## Project Structure
@@ -44,26 +39,21 @@ counter-app/          # Root directory
 
 ## Features
 
-Increment, Decrement, Reset: Intuitive button controls for managing the counter value.
-
-Animations: Smooth animations for pop-up notifications.
-
-Keyboard Shortcuts: Control the counter using specific keys.
-
-Persistent State: Counter value is saved using Local Storage and persists across sessions.
-
-Responsive Design: Works seamlessly on different devices and screen sizes.
-
-
-
+- **Increment, Decrement, Reset:** Intuitive button controls for managing the counter value.
+- **Animations:** Smooth animations for pop-up notifications.
+- **Keyboard Shortcuts:** Control the counter using specific keys.
+- **Persistent State:** Counter value is saved using Local Storage and persists across sessions.
+- **Responsive Design:** Works seamlessly on different devices and screen sizes.
 
 ## Usage
 
-1. Open the project locally or access it online via this link.
+1. Simply open <a href="https://atia-farha.github.io/counter-app/" target="_blank">this link</a>.
 2. Use the `+` button to increment the counter.
 3. Use the `-` button to decrement the counter.
 4. Use the Reset button reset the counter. (visible and work only when the counter is greater than 0)
 5. The counter value will persist across browser sessions.
+
+*Ensure that you already have an installed web browser (Chrome, Firefox, etc.) on your device.
 
 ## Keyboard Shortcuts for Buttons
 
@@ -75,6 +65,7 @@ Responsive Design: Works seamlessly on different devices and screen sizes.
 
 ## Reporting Issues
 
-If you encounter any functional issues, design flaws, or other problems, please let me know in the 'Issues' section. I will work to resolve them promptly.
+If you encounter any bugs or have suggestions for improvement, please report them in the 'Issues' section of the GitHub repository. I will address them promptly.
+
 
 <p align="center">© Designed and developed by Atia Farha | ALL RIGHTS RESERVED</p>
