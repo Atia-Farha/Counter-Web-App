@@ -15,7 +15,7 @@ A simple and minimalistic counter web app with keyboard shortcuts and local stor
 ## Project Structure
 
 ```plaintext
-counter-app/          # Root directory
+counter-app/               # Root directory
 ├── index.html            # Main HTML file
 ├── src/                  # Source code directory
 │   ├── css/              # Directory for stylesheets
