@@ -2,6 +2,8 @@
 
 A simple and minimalistic counter web app with keyboard shortcuts and local storage support. Perfect for counting events, tracking activities and more.
 
+There is also Vue version in <a href="https://github.com/Atia-Farha/vue-counter-app" target="_blank">vue-counter-app</a> repository.
+
 ## Table of Contents
 
 - [Project Structure](#project-structure)
@@ -22,9 +24,6 @@ counter-app/               # Root directory
 │   │   └── style.css     # Main CSS file for styling
 │   └── js/               # Directory for JavaScript files
 │       └── script.js     # Core JavaScript file
-├── assets/               # Directory for static assets
-│   ├── favicon.png       # Favicon image
-│   └── preview.png       # Preview image for the app
 ├── README.md             # Project documentation
 └── LICENSE               # License file
 ```
