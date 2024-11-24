@@ -17,7 +17,7 @@ There is also Vue version in <a href="https://github.com/Atia-Farha/vue-counter-
 ## Project Structure
 
 ```plaintext
-counter-app/               # Root directory
+counter-app/              # Root directory
 ├── index.html            # Main HTML file
 ├── src/                  # Source code directory
 │   ├── css/              # Directory for stylesheets
