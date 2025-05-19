@@ -2,8 +2,6 @@
 
 A simple and minimalistic counter web app with keyboard shortcuts and local storage support. Perfect for counting events, tracking activities and more.
 
-There is also Vue version in <a href="https://github.com/Atia-Farha/vue-counter-app" target="_blank">vue-counter-app</a> repository.
-
 ## Table of Contents
 
 - [Project Structure](#project-structure)
@@ -24,8 +22,7 @@ counter-app/               # Root directory
 │   │   └── style.css     # Main CSS file for styling
 │   └── js/               # Directory for JavaScript files
 │       └── script.js     # Core JavaScript file
-├── README.md             # Project documentation
-└── LICENSE               # License file
+└── README.md             # Project documentation
 ```
 
 ## Technologies Used
@@ -39,14 +36,13 @@ counter-app/               # Root directory
 ## Features
 
 - **Increment, Decrement, Reset:** Intuitive button controls for managing the counter value.
-- **Animations:** Smooth animations for pop-up notifications.
 - **Keyboard Shortcuts:** Control the counter using specific keys.
 - **Persistent State:** Counter value is saved using Local Storage and persists across sessions.
 - **Responsive Design:** Works seamlessly on different devices and screen sizes.
 
 ## Usage
 
-1. Simply open <a href="https://atia-farha.github.io/counter-app/" target="_blank">this link</a>.
+1. Simply open <a href="https://atia-farha.github.io/counter-webapp/" target="_blank">this link</a>.
 2. Use the `+` button to increment the counter.
 3. Use the `-` button to decrement the counter.
 4. Use the Reset button reset the counter. (visible and work only when the counter is greater than 0)
@@ -64,7 +60,7 @@ counter-app/               # Root directory
 
 ## Reporting Issues
 
-If you encounter any bugs or have suggestions for improvement, please report them in the <a href="https://github.com/Atia-Farha/counter-app/issues" target="_blank">Issues</a> section of this GitHub repository. I will address them promptly.
+If you encounter any bugs or have suggestions for improvement, please report them in the <a href="https://github.com/Atia-Farha/counter-webapp/issues" target="_blank">Issues</a> section of this GitHub repository. I will address them promptly.
 
 ---
 <p align="center">© Designed and developed by <a href="https://github.com/Atia-Farha" target="_blank">Atia Farha</a> | ALL RIGHTS RESERVED</p>
