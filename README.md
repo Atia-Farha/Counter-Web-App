@@ -22,7 +22,8 @@ counter-app/               # Root directory
 │   │   └── style.css     # Main CSS file for styling
 │   └── js/               # Directory for JavaScript files
 │       └── script.js     # Core JavaScript file
-└── README.md             # Project documentation
+├── README.md             # Project documentation
+└── LICENSE               # LICENSE file
 ```
 
 ## Technologies Used
