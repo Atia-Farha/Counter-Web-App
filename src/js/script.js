@@ -88,3 +88,9 @@ function updateBtn() {
 }
 
 updateBtn();
+
+[incrementBtn, decrementBtn, resetBtn].forEach(button => {
+    button.addEventListener('click', () => {
+        button.blur();
+    });
+});
